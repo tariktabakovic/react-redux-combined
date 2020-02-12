@@ -14,3 +14,10 @@ import {Provider} from 'react-redux';
 
 const store = createStore(count);
 
+export default function CounterApp(){
+    return (
+        <Provider store = {store}>
+            <Counter />
+        </Provider>
+    )
+};
