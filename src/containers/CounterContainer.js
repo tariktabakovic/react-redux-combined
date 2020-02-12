@@ -11,8 +11,9 @@ from '../actions';
 
 // Describe how to translate redux state into react props.
 function mapStateToProps(state){
+    console.table(state)
     return {
-        count: state.count
+        count: state
     }
 }
 

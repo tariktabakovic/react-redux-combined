@@ -8,8 +8,10 @@ export default function Counter({
     handleDecrement,
     handleReset
     }) {
+        console.log('fasdoij')
         return (
             <div>
+                hello!
                 <h1>{count}</h1>
                 <button onClick = {handleDecrement}>-</button>
                 <button onClick = {handleIncrement}>+</button>
