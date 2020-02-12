@@ -8,7 +8,7 @@ from './actions';
 // 0
 // 1 
 
-function count(state=0, action){
+export function count(state=0, action){
     let newState= state
     switch (action.type){
         case INCREMENT:
@@ -24,4 +24,4 @@ function count(state=0, action){
             break;   
     }
     return newState;
-}
+};
