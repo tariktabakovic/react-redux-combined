@@ -25,6 +25,7 @@
 
 # 'Smart Containers'
 
+- `containers/` - holds all your smart containers
 - they know all about redux
     - have access to redux `state` 
     - can call the store's `dispatch()`
