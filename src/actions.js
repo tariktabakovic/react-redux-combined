@@ -1,23 +1,23 @@
 // Actions best practice #2 constants
-const INCREMENT = 'INCREMENT';
-const DECREMENT = 'DECREMENT';
-const RESET = 'RESET';
+export const INCREMENT = 'INCREMENT';
+export const DECREMENT = 'DECREMENT';
+export const RESET = 'RESET';
 
 // Actions best practice 
-function actionIncrement(){
+export function actionIncrement(){
     return({
-        type: 'INCREMENT'
+        type: INCREMENT
     })
 }
 
-function actionDecrement(){
+export function actionDecrement(){
     return({
-        type: 'DECREMENT'
+        type: DECREMENT
     })
 }
 
-function actionReset(){
+export function actionReset(){
     return ({
-        type: 'RESET'
+        type: RESET
     })
 }
