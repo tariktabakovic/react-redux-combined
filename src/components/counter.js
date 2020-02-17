@@ -8,7 +8,7 @@ export default function Counter({
     handleDecrement,
     handleReset
     }) {
-        console.log('fasdoij')
+        // console.log('fasdoij')
         return (
             <div>
                 hello!
