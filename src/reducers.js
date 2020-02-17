@@ -1,7 +1,10 @@
 import { 
     INCREMENT, 
     DECREMENT, 
-    RESET } 
+    RESET,
+    RED,
+    GREEN,
+    ORANGE } 
 from './actions';
 
 //  Our ideal/default state is just a number: 
@@ -19,6 +22,15 @@ export function count(state=0, action){
             break;
         case RESET:
             newState= 0;
+            break;
+        case RED: 
+            return {...state, color: 'red'};
+            break;
+        case GREEN:
+            return {...state, color: 'green'};
+            break;
+        case ORANGE:
+            return {...state, color: 'orange'};
             break;
         default:
             break;   
